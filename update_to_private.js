@@ -1,7 +1,7 @@
 const { Octokit } = require('@octokit/rest');
 
 // Replace 'YOUR_ACCESS_TOKEN' with your personal access token
-const accessToken = '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';
+const accessToken = '';
 
 // Create an Octokit instance using your access token
 const octokit = new Octokit({ auth: accessToken });
